@@ -1,0 +1,45 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.logo img{
+    width: 150px;
+    height: 400;
+}
+
+.total {
+    font-size: 20px;
+}
+
+.table-footer {
+    font-size: 12px;
+    background-color: burlywood;
+}
+
+.table-head {
+    background-color: darkgrey;
+    font-size: 17px;
+}
+.table-body {
+    background-color: burlywood;
+    font-size: 17px;
+}
+.table-body th {
+    background-color: darkgrey;
+}
+
+.table caption {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
