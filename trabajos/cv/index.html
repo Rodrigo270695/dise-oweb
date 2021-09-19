@@ -9,20 +9,41 @@
 </head>
 <body>
     <header>
-        <h1 id="inicio">RODRIGO GRANJA REQUEJO</h1>
-        <nav>
-            <ul>
-                <li><a href="#datos-personales">Datos Personales</a></li>
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
-                <li><a href="#habilidades">Habilidades y Conocimientos</a></li>
-                <li><a href="#educacion">Educación</a></li>
-            </ul>
-        </nav>
+        <div class="titulo" id="inicio">
+            <h1>Curriculum Vitae</h1>
+        </div>
+
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li class="nav-li"><a href="#datos-personales">Datos Personales</a></li>
+                    <li class="nav-li"><a href="#experiencia-laboral">Experiencia Laboral</a></li>
+                    <li class="nav-li"><a href="#habilidades">Habilidades y Conocimientos</a></li>
+                    <li class="nav-li"><a href="#educacion">Educación</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="mis-datos">
+            <img src="" alt="mifoto">
+            <h1 class="nombre">RODRIGO GRANJA REQUEJO</h1>
+        </div>
+        
     </header>
+
+    <section>
+
+        <p>
+            Me considero una persona responsable <b>dinámica y creativa</b>, confacilidad de adaptación y capacidad de trabajar
+            en equipo, en condiciones de alta presión, con iniciativa para resolver problemas eficientes y lograr 
+            las metas y objetivos trazados por la empresa.
+        </p>
+
+    </section>
+
     <hr>
     <section>
-        <h2 id="datos-personales">Datos Personales</h2>
+        <h2 id="datos-personales" class="titulo-h2">Datos Personales</h2>
         <ul>
             <li> <b>DNI: </b>77344506</li>
             <li> <b>Ciudad: </b>Chiclayo</li>
@@ -34,18 +55,8 @@
     </section>
     <hr>
     <section>
-        <h2 id="perfil">Perfil</h2>
-        <p>
-            Me considero una persona responsable dinámica y creativa, confacilidad de adaptación y capacidad de trabajar
-            en equipo, en condiciones de alta presión, con iniciativa para resolver problemas eficientes y lograr 
-            las metas y objetivos trazados por la empresa.
-        </p>
-        <a href="index.html#inicio">⬆️</a>
-    </section>
-    <hr>
-    <section>
-        <h2 id="experiencia-laboral">Experiencia Laboral</h2>
-        <table>
+        <h2 id="experiencia-laboral" class="titulo-h2">Experiencia Laboral</h2>
+        <table border="1" class="tabla">
             <thead>
                 <tr>
                     <th>Empresa/Organización</th>
@@ -67,9 +78,9 @@
     </section>
     <hr>
     <section>
-        <h2 id="habilidades">Habilidades y Conocimientos</h2>
+        <h2 id="habilidades" class="titulo-h2">Habilidades y Conocimientos</h2>
         <dl>
-            <dt>Desarrollador Web</dt>
+            <dt class="columna">Desarrollador Web</dt>
             <dd>HTML</dd>
             <dd>CSS</dd>
             <dd>JavaScript</dd>
@@ -78,15 +89,15 @@
             <dd>Postgres</dd>
             <dd>SQL Server</dd>
             <dd>Heidi SQL</dd>
-            <dt>Framework</dt>
+            <dt class="columna">Framework</dt>
             <dd>Laravel</dd>
             <dd>Vue.js</dd>
-            <dd>React</dd>
+            <dd>React(Librería)</dd>
             <dd>Bootstrap</dd>
             <dd>Quasar</dd>
             <dd>Nuxt</dd>
             <dd>Spring</dd>
-            <dt>Desarrollador de aplicaciones de escritorio</dt>
+            <dt class="columna">Desarrollador de aplicaciones de escritorio</dt>
             <dd>Java</dd>
             <dd>C++</dd>
             <dd>C</dd>
@@ -98,8 +109,8 @@
     </section>
     <hr>
     <section>
-        <h2 id="educacion">Educación</h2>
-        <table>
+        <h2 id="educacion" class="titulo-h2">Educación</h2>
+        <table border="1" class="tabla">
             <thead>
                 <tr>
                     <th>Nivel</th>
@@ -128,5 +139,15 @@
         <a href="index.html#inicio">⬆️</a>
     </section>
 
+    <footer>
+        <div class="footer">
+            <p>
+                Página web diseñada por - Rodrigo Granja Requejo
+            </p>
+            <span>
+                Chiclayo - Perú
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
