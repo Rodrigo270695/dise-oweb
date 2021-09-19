@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "header header header" "nav section aside" "foot foot foot" ;
+}
+
+header {
+    grid-area: header;
+    background-color: darkslateblue;
+}
+
+nav {
+    grid-area: nav;
+    background-color: cyan;
+}
+
+section {
+    grid: section;
+    background-color: darkblue;
+}
+
+aside {
+    grid-area: aside;
+    background-color: darkmagenta;
+}
+
+footer {
+    grid-area: foot;
+    background-color: darkslateblue;
+
+}
